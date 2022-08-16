@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,700;1,300;1,400&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    
+    background-color: #4B6587 ;
+}
+
+
+a {
+    color: beige;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    
+}
+
+/* header start */ 
+
+header {
+    height: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1)  ;
+
+}
+
+
+header nav { 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav .logo a {
+
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 25px;
+}
+header nav .logo a:hover {
+
+    color: #0ba2c0;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 25px;
+    transition: color .15s ease;
+}
+
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    color: #0ba2c0;
+    
+
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+    column-gap: 45px;
+
+}
+
+nav .menu .menu-button{
+color: #0ba2c0;
+text-decoration: none;
+background-color: rgba(255, 255, 255, 0.8);
+padding: 12px 24px;
+border-radius: 55px;
+
+}
+
+nav .menu .menu-button:hover{
+    background-color: #0ba2c0;
+    color: white;
+    transition: color .15s ease;
+    
+    }
+
+    /* header end*/
+
+
+    /* Section Start */
+
+    .cont{
+        color:white;
+        height: calc(100vh-100px);
+        padding-top: 70px;
+
+    }
+    .cont h1{
+        font-size: 35px;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .cont p{
+
+        font-size: 18px;
+        text-align: left;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* Section End */
+
+
+    /* About Start */
+    
+    .aboutl{
+        display: box;
+        justify-content : 
+        margin-top:2px;
+        box-sizing: border-box;
+        
+
+    }
+    .aboutl h2{
+        color: white;
+        font-size: 35px;
+        text-align: left;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        text
+    }
+    .aboutl p{
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        text-align: justify;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 20px;
+        
+    }
+
+    .imgr {
+        display: flex;
+        justify-content: center;
+        padding-top: 50PX;
+        column-gap: 70px;
+    }
+
+    
+    /* About End */
+
+/* footer start */
+
+
+
+.container .links{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 20px;
+        
+}
+
+.container .links a{
+  background-color: white;
+  padding: 20px ;
+  width: 150px;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 45px;
+  transition: all .25s ease;
+
+}
+        
+.container .links a:hover{
+ background-color: #0ba2c0;
+color: white;
+transition: color .15s ease;
+}
+
+footer{
+        padding-top: 180px;
+        height: 1px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1)  ;
+    }
+
+
+
+
+
+   /* footer end */
+
+    /* Section End */
+
+    /* Respo Start */
+    @media(max-width:750px){
+        .container {
+            width:100%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .menu ul{
+            column-gap: 20px;
+        }
+
+        .menu .menu-button {
+            display: none;
+        }
+    }
+    /* Respo End */
+
